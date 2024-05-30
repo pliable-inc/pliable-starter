@@ -1,9 +1,9 @@
-name: 'jaffle_shop'
+name: 'pliable'
 
 config-version: 2
 version: '0.1'
 
-profile: 'jaffle_shop'
+profile: 'pliable'
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
@@ -18,9 +18,3 @@ clean-targets:
     - "logs"
 
 require-dbt-version: [">=1.0.0", "<2.0.0"]
-
-models:
-  jaffle_shop:
-      materialized: table
-      staging:
-        materialized: view
